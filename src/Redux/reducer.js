@@ -15,13 +15,6 @@ const editorSlice=createSlice({
                 return x.id!==action.payload
             })
         },
-        editContent:(state,action)=>{
-            state.arr.forEach((x)=>{
-                if(x.id===action.payload){
-
-                }
-            })
-        },
         editRecord:(state,action)=>{
             state.arr.forEach((x)=>{
                 if(x.id===action.payload.id){
